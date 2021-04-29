@@ -1,0 +1,4 @@
+api/__pycache__/*
+storage/*
+api/config.py
+data/*

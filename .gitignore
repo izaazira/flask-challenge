@@ -1,4 +1,2 @@
 api/__pycache__/*
-storage/generate/*
 api/config.py
-data/*.db

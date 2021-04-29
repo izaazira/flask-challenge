@@ -1,0 +1,20 @@
+version: '2'
+
+volumes:
+  app-data:
+    driver: local
+
+services:
+        api:
+                image: flask-challenge
+                build: .
+                environment:
+                        - PORT=9000
+                        - FLASK_ENV=development
+                ports:
+                        - "5000:5000"
+                volumes:
+                        - ".:/code"
+                        - "./storage:/storage"
+                        - "./data:/data"
+

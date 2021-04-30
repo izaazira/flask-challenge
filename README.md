@@ -18,7 +18,7 @@ $ cd api/config.py.example api/config.py
 
 2. Copy and update your config file.
 ```bash
-$ cd /api/config.py.example /api/config.py
+$ mv /api/config.py.example /api/config.py
 ```
 
 This project already include a docker and also docker-compose. It is a yeah for you.

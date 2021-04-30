@@ -13,7 +13,7 @@ $ sudo apt-get install python3 python3-pip python3-dev
 ```bash
 $ git clone https://github.com/izaazira/flask-challenge.git
 $ cd flask-challenge
-$ cd /api/config.py.example /api/config.py
+$ cd api/config.py.example api/config.py
 ```
 
 2. Copy and update your config file.
